@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(222, 217, 217);
+}
+
+#section {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    background-color: #055c42;
+    width: 30%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+#title {
+    color: rgb(191, 214, 205);
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#new-task-input {
+    width: 50%;
+    height: 30px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+
+#tasks {
+    list-style-type: none; 
+    margin-right: 50px;
+}
+
+.task {
+    display: block;
+    background: #eee;
+    border-radius: 3px;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
+
+#new-task-submit {
+    margin: 30px auto;
+    display: block;
+}
+
