@@ -31,7 +31,7 @@ body {
     margin-right: 50px;
 }
 
-.task {
+.text {
     display: block;
     background: #eee;
     border-radius: 3px;
@@ -42,5 +42,11 @@ body {
 #new-task-submit {
     margin: 30px auto;
     display: block;
+}
+
+.done {
+    text-decoration :line-through;
+    text-decoration-color: black ;
+    opacity: 0.5;
 }
 
