@@ -44,9 +44,9 @@ window.addEventListener('load', () => {
         task_done_el.classList.add('checkbox');
         task_done_el.innerHTML = 'Done';
 
+        task_actions_el.appendChild(task_done_el);
         task_actions_el.appendChild(task_edit_el);
         task_actions_el.appendChild(task_delete_el);
-        task_actions_el.appendChild(task_done_el);
         
         task_el.appendChild(task_actions_el);
         
@@ -73,16 +73,16 @@ window.addEventListener('load', () => {
         });
 
         task_done_el.addEventListener('click', () => {
-            task_el.completed = !task_el.completed
+            task_content_el.completed = ! task_content_el.completed
             finishedTask();
         });
         
         function finishedTask() {
-            if (task_el.completed == true) {
-                task_el.classList.add('done')
+            if ( task_content_el.completed == true) {
+                task_content_el.classList.add('done')
             }
             else {
-                task_el.classList.remove('done')
+                task_content_el.classList.remove('done')
             }
           }
 

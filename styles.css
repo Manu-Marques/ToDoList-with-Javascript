@@ -34,8 +34,7 @@ body {
 .text {
     display: block;
     background: #eee;
-    border-radius: 3px;
-    margin: 0.5rem 0;
+    border-radius: 20px;
     padding: 0.5rem;
 }
 
@@ -50,3 +49,28 @@ body {
     opacity: 0.5;
 }
 
+.task-list {
+    display: flex;
+    justify-content: center;
+}
+
+.edit, .delete, .checkbox{
+    cursor: pointer;
+    margin-right: 2px;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.content {
+    width: 50%;
+}
