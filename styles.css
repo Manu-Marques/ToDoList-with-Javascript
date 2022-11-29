@@ -97,4 +97,7 @@ button:hover {
         margin-top: 10px;
         margin-bottom: 15px;
     }
+    #tasks {
+        margin-right: 57px;
+    }
 }
