@@ -79,3 +79,22 @@ body {
 button:hover {
     background-color: rgb(134, 207, 179);
 }
+
+@media (max-width: 768px) {
+    #section {
+        width: 100%;
+    }
+    .task {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .content {
+        width: 55%;
+    }
+    .actions {
+        margin-left: 57px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+}
