@@ -10,4 +10,4 @@
  
  Ici j'ai utilisé le systéme appelé CRUD *(Create, Read, Update et Delete)*.
  
- Vous pouvez consulter le projet que j'ai mis en ligne, il est également en responsive : https://todolist-with-javascript.vercel.app/
+ Vous pouvez consulter le projet que j'ai mis en ligne, il est également responsive : https://todolist-with-javascript.vercel.app/
